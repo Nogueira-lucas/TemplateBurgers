@@ -1,0 +1,25 @@
+- Menu:
+    * Inicio/topo
+    * Sobre a B&D
+    * Cardápio
+    * Quests
+    * Contato
+
+- Cabeçalho:
+    +    Foto de Banner
+    +    Titulo/ Slogan
+    +    Atalho para Cardápio
+   
+- Sobre:
+    * Descrição da Hamburgueria
+    +   link para quests
+
+- Contato:
+    * Telefone
+    * Endereço
+    * Mapa
+
+- Rodapé:
+    Autores
+    Atalhos para instagram + facebook
+

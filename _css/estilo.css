@@ -1,0 +1,44 @@
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+    padding-top: 15%;
+}
+
+
+.menu-principal{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
+.conteudo{
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.principal{
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+}
+
+.sobre{
+    max-width: 80%;
+    margin: 0 10% auto;
+    padding: 3px;
+    text-align: justify;
+}
+
+.icones{
+    font-size: 3em;
+    color: black;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template</title>
+    <!---MATERIALIZE FRAMEWORK-->
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <script src="materialize/js/materialize.min.js"></script>
+    <!--SCRIPT MATERIALIZE-->
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <script src="materialize/js/materialize.js"></script>
+    <!--MEU ESTILO-->
+    <link rel="stylesheet" href="_css/estilo.css">
+    <!--ICONES AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <nav class="menu-principal">
+        <div class="container nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Quests</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="cabecalho">
+        <div class="conteudo">
+            <h2>Burgers & Dragons</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry.
+            </p>
+            <a href="https://www.facebook.com/burgersanddragons/"  target="_blank" class="icones">
+                <i class="fab fa-facebook"></i>
+            </a>
+             
+            <a href="https://www.instagram.com/burgers_and_dragons/?hl=pt-br"  target="_blank" class="icones">
+                <i class="fab fa-instagram"></i>
+            </a>
+            
+        </div>
+    </header>
+    <section class="principal">
+        <div class="sobre">
+            <h3>Sobre nós</h3>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+                have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                like).
+            </p>
+        </div>
+        <div class="container">
+        <!--INICIALIZAÇÃO-->
+        <script>
+            var instance = M.Tabs.init(el, options);
+    
+            // Or with jQuery
+            $(document).ready(function(){
+            $('.tabs').tabs();
+            });
+        </script>
+            <h3>Cardápio</h3>
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s3"><a href="#test1">Lanches</a></li>
+                        <li class="tab col s3"><a href="#test2">Bebidas</a></li>
+                        <li class="tab col s3"><a href="#test3">Sobremesas</a></li>
+                    </ul>
+                    <div id="#test1">TESTE 1</div>
+                    <div id="#test2">TESTE 2</div>
+                    <div id="#test2">TESTE 3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+    
+    
+</body>
+
+</html>
