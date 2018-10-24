@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6{
 .menu-principal{
     margin: 0;
     padding: 0;
-    position: fixed;
+    /*position: fixed;*/
 }
 
 .conteudo{
@@ -27,7 +27,6 @@ h1, h2, h3, h4, h5, h6{
 
 .principal{
     width: 100%;
-    height: 100%;
     padding: 3%;
 }
 
@@ -36,10 +35,18 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 10% auto;
     padding: 3px;
     text-align: justify;
-    min-height: 500px;
 }
 
 .icones{
     font-size: 3em;
     color: black;
 }
+
+.cardapio{
+    height: 500px;
+}
+
+.quests{
+    min-height: 600px;
+}
+

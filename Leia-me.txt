@@ -22,4 +22,11 @@
 - Rodapé:
     Autores
     Atalhos para instagram + facebook
+_____________________________________________________________________________________________________________
 
+Aprender:
+
+    - Transição de texto
+    - Tabs com materialize
+    - Integração com redes sociais
+    - Mapa do google
