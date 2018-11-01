@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One|Spicy+Rice');
+
 h1, h2, h3, h4, h5, h6{
     padding: 0;
     margin: 0;
+    font-family: 'Spicy Rice', cursive;
 }
 
+
+p{
+    font-family: 'Spicy Rice', cursive;
+}
 
 .cabecalho{
     width: 100%;
@@ -15,7 +22,13 @@ h1, h2, h3, h4, h5, h6{
 .menu-principal{
     margin: 0;
     padding: 0;
-    /*position: fixed;*/
+    background-color: rgba(139,69,19, 0.8);
+    position: fixed;
+    z-index: 900;
+}
+
+.menu-principal ul li a{
+    color: #ffc014;
 }
 
 .conteudo{
@@ -46,6 +59,12 @@ h1, h2, h3, h4, h5, h6{
     height: 600px;
 }
 
+.cardapio h2{
+    text-align: center;
+    margin-bottom: 2%; 
+    margin-top: 3%;
+}
+
 .topo-tab{
     background-color: rgba(0, 0, 0, 0.0)
 }
@@ -55,6 +74,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .quests{ 
+    font-family: 'Bowlby One', cursive;
     margin-top: 100px;
     min-height: 300px;
 }
@@ -66,19 +86,35 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .contato{
+    padding: 3%;
     background-color: aquamarine;
     margin-bottom: -20px;
+}
+
+.contato h3{
+    margin-top: 4%;
+    margin-bottom: 10%; 
 }
 
 .localiza{
     max-width: 90px;
 }
 
-.iframe-responsivel{
-    top: 0;
-    left: 0;
+.enderecoburgers{
+    position: absolute;
+    visibility: hidden;
 }
 
-.rodape{
-    padding-top: 0px;
+@media only screen and (max-width: 390px){
+    .iframe-responsivo {
+        width: 10px;
+        position: absolute;
+        visibility: hidden;
+    }
+    .enderecoburgers{
+        position: relative;
+        visibility: visible;
+    }
 }
+
+

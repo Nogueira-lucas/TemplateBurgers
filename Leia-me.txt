@@ -24,7 +24,7 @@
     Atalhos para instagram + facebook
 _____________________________________________________________________________________________________________
 
-Aprender:
+Para implementar:
 
     - Transição de texto
     - Tabs com materialize
