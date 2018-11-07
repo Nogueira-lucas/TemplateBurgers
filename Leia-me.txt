@@ -20,8 +20,8 @@
     * Mapa
 
 - Rodapé:
-    Autores
-    Atalhos para instagram + facebook
+    * Autores
+    * Atalhos para instagram + facebook
 _____________________________________________________________________________________________________________
 
 Para implementar:
@@ -29,4 +29,16 @@ Para implementar:
     - Transição de texto
     - Tabs com materialize
     - Integração com redes sociais
-    - Mapa do google
+    - Mapa do googlex
+
+----------------------------------------------------------------------------------------------------------
+
+- Integração com redes sociais
+- Aprender Wow Jquery
+- Funções de Scroll jquery
+
+_____________________________________________________________________________________________________________
+
+>>> Categorias
+
+SALADAS, TESOUROS, BEBIDAS, PORÇÕES, COMIDAS, ESPECIAIS, BURGERS

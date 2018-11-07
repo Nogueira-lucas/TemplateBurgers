@@ -5,34 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Template :: BURGERS&DRAGONS</title>
+    <title>Burgers & Dragons</title>
     <!--MATERIALIZE CSS-->
     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection"/>
     <!--MEU ESTILO CSS-->
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/animacao.css">
+    <link rel="stylesheet" href="css/efeitos.css">
     <!--ICONES AWESOME-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <!--MEU SCRIPT-->
     <script type="text/javascript" src="js/myscript.js"></script>
 </head>
 <body>
-    <nav class="menu-principal">
+    <nav class="menu-principal animated bounceInDown">
         <div class="container nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" class="brand-logo">[LOGO]</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#Cardapio">Cardápio</a></li>
                 <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Cardapio">Cardápio</a></li>
                 <li><a href="#Quests">Quests</a></li>
                 <li><a href="#Contato">Contato</a></li>
             </ul>
         </div>
     </nav>
     <header class="cabecalho">
-        <div class="conteudo animated fadeIn">
+        <div class="conteudo">
             <h2>Burgers & Dragons</h2>
-            <p>[SLOGAN]
-            </p>
+            <p>[SLOGAN]</p>
             <!--icones face-->
             <a href="https://www.facebook.com/burgersanddragons/"  target="_blank" class="icones">
                 <i class="fab fa-facebook"></i>
@@ -44,8 +44,8 @@
             
         </div>
     </header>
-    <section class="principal container">
-        <div class="sobre" id="Sobre">
+    <section class="principal container" id="Sobre">
+        <div class="sobre-content">
             <h3>Sobre nós</h3>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when
                 looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
@@ -57,29 +57,10 @@
             </p>
         </div>
     </section>
-    <section class="cardapio" id="Cardapio">
-        <h2>Menu</h2>
-        <div class="row">
-            <div class="col s12 off-set m12 l12">
-                <ul class="tabs">
-                    <li class="tab col s4 m4 l4"><a href="#sanduiches" >Sanduiches</a></li>
-                    <li class="tab col s4 m4 l4"><a href="#bebidas">Bebidas</a></li>
-                    <li class="tab col s4 m4 l4"><a href="#sobremesas">Sobremesas</a></li>
-                </ul>
-            </div>
-            <div id="sanduiches" class="col s12 red active cardapio">
-                <h3>Sanduiches</h3>
-            </div>
 
-            <div id="bebidas" class="col s12 blue cardapio">
-                <h3>Bebidas</h3>
-            </div>
+    <!-- CARDAPIO -->
+    <iframe src="cardapio.html" scrolling="no" frameborder="no" style="width: 100%; min-height: 700px;"></iframe>
 
-            <div id="sobremesas" class="col s12 green cardapio">
-                <h3>Sobremesas</h3>
-            </div>
-        </div>
-    </section>
     <section class="container quests">
         <div class="q-content" id="Quests">
             <h3>Conheça nossas quests!</h3>
@@ -103,7 +84,7 @@
             </div>
         </div>
     </section>
-    <footer class="page-footer brown darken-3">
+    <footer class="page-footer brown darken-3 rodape">
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
@@ -128,6 +109,5 @@
     <!--SCRIPT MATERIALIZE-->
     <script type="text/javascript" src="materialize/js/jquery.min.js"></script>
     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-
 </body>
 </html>

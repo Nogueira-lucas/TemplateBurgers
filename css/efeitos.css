@@ -1,0 +1,7 @@
+.esconder{
+    opacity: 0;
+}
+
+section{
+    animation-delay: 0.3s;
+}
