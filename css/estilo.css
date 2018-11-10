@@ -60,7 +60,8 @@ body{
 }
 
 .sobre{
-    margin: 0 10% auto;
+    width: 75%;
+    margin: 5% auto;
     padding: 3px;
     text-align: justify;
 }
@@ -111,26 +112,30 @@ body{
 }
 
 .localiza{
-    max-width: 90px;
-}
-
-.enderecoburgers{
-    position: absolute;
-    visibility: hidden;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
 }
 
 @media only screen and (max-width: 420px){
+    .rodape{
+        margin-top: -20px;
+    }
+
     .iframe-responsivo {
-        width: 10px;
-        position: absolute;
-        visibility: hidden;
-    }
-
-    .enderecoburgers{
+        width: 100%;
         position: relative;
-        visibility: visible;
+        margin: 0;   
     }
 
+    .contato{
+        margin: 0;
+        padding: 0;
+    }
+    .localiza{
+        padding: 0;
+        margin: 0;
+    }
     .conteudo{
         margin-top: 25%;
     }
